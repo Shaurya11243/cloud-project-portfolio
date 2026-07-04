@@ -1,0 +1,12 @@
+<svg width="900" height="1200" viewBox="0 0 900 1200" xmlns="http://www.w3.org/2000/svg">
+  <rect width="900" height="1200" rx="30" fill="#07111F"/>
+  <rect x="110" y="120" width="680" height="960" rx="24" fill="#0D233E" stroke="#2E7BBF" stroke-width="2"/>
+  <rect x="180" y="220" width="540" height="260" rx="20" fill="#0F3A58"/>
+  <rect x="180" y="520" width="540" height="260" rx="20" fill="#0F3A58"/>
+  <path d="M260 340H620" stroke="#38BDF8" stroke-width="10" stroke-linecap="round"/>
+  <path d="M260 640H620" stroke="#38BDF8" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="440" cy="340" r="60" fill="#38BDF8" opacity="0.8"/>
+  <path d="M420 340L440 360L470 320" stroke="#F8FAFC" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="180" y="900" fill="#F8FAFC" font-family="Inter, Segoe UI, sans-serif" font-size="34" font-weight="600">Testing & Validation</text>
+  <text x="180" y="944" fill="#8ED4FF" font-family="Inter, Segoe UI, sans-serif" font-size="22">Deployment confidence</text>
+</svg>

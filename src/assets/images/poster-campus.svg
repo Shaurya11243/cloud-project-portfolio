@@ -1,0 +1,8 @@
+<svg width="1280" height="720" viewBox="0 0 1280 720" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1280" height="720" rx="24" fill="#07111F"/>
+  <rect x="70" y="90" width="1140" height="540" rx="20" fill="#0D233E" stroke="#2E7BBF" stroke-width="2"/>
+  <circle cx="360" cy="340" r="90" fill="#38BDF8" opacity="0.7"/>
+  <rect x="560" y="220" width="280" height="160" rx="16" fill="#0F3A58"/>
+  <rect x="560" y="400" width="280" height="120" rx="16" fill="#0F3A58"/>
+  <text x="110" y="650" fill="#F8FAFC" font-family="Inter, Segoe UI, sans-serif" font-size="40" font-weight="600">Azure deployment walkthrough</text>
+</svg>

@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Smart University Campus Infrastructure | Azure Cloud Case Study</title>
+    <meta
+      name="description"
+      content="A premium Azure cloud portfolio website showcasing a Smart University Campus Infrastructure deployment with enterprise networking, security, and recovery services."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Poppins:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="src/styles/styles.css" />
+  </head>
+  <body>
+    <div class="background-orb orb-a"></div>
+    <div class="background-orb orb-b"></div>
+    <div class="background-grid"></div>
+
+    <header class="topbar">
+      <a class="brand" href="#home">
+        <span class="brand-mark"></span>
+        CampusLab<span>Azure</span>
+      </a>
+      <button class="menu-toggle" aria-expanded="false" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <nav class="nav-links" aria-label="Primary navigation">
+        <a href="#about" class="nav-link">About</a>
+        <a href="#tech" class="nav-link">Tech</a>
+        <a href="#architecture" class="nav-link">Architecture</a>
+        <a href="#demo" class="nav-link">Demo</a>
+        <a href="#gallery" class="nav-link">Gallery</a>
+        <a href="#docs" class="nav-link">Docs</a>
+        <a href="mailto:siddharthshaurya408@gmail.com" class="nav-link">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section id="home" class="hero section">
+        <div class="hero-copy reveal">
+          <p class="eyebrow">Enterprise Cloud Infrastructure Deployment on Microsoft Azure</p>
+          <h1>Smart University Campus Infrastructure</h1>
+          <p class="hero-text">
+            Designed and deployed a mission-critical Azure landing zone for a smart campus environment, bringing together secure networking, identity, storage, backup, and policy governance into a single enterprise-ready foundation.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#demo">Watch Demo</a>
+            <a class="btn btn-secondary" href="#architecture">Infrastructure Summary</a>
+            <a class="btn btn-ghost" href="assets-download/Azure%20project%20Campus%20Managment%20Siddharth.pdf" target="_blank" rel="noreferrer">Download Documentation</a>
+          </div>
+          <div class="hero-meta">
+            <a class="meta-pill" href="https://github.com/" target="_blank" rel="noreferrer">GitHub</a>
+            <a class="meta-pill" href="#docs">Azure Case Study</a>
+            <a class="meta-pill" href="https://drive.google.com/drive/folders/1MTuv4yqWK-jjr6b4AfQEYrAtuHugfrfT?usp=sharing" target="_blank" rel="noreferrer">📹 Screen Recordings</a>
+            <span class="hero-author">Created by Siddharth Shaurya</span>
+          </div>
+          <p class="hero-note">All visuals are sourced directly from the Azure campus project PDF documentation.</p>
+          <div class="stats-grid" aria-label="Project metrics">
+            <article class="stat-card">
+              <strong class="counter" data-target="8">0</strong>
+              <span>Subnets</span>
+            </article>
+            <article class="stat-card">
+              <strong class="counter" data-target="6">0</strong>
+              <span>Virtual Machines</span>
+            </article>
+            <article class="stat-card">
+              <strong class="counter" data-target="12">0</strong>
+              <span>Azure Services</span>
+            </article>
+            <article class="stat-card">
+              <strong class="counter" data-target="8">0</strong>
+              <span>Security Groups</span>
+            </article>
+            <article class="stat-card">
+              <strong class="counter" data-target="6">0</strong>
+              <span>Access Roles</span>
+            </article>
+            <article class="stat-card">
+              <strong class="counter" data-target="3">0</strong>
+              <span>Backup Layers</span>
+            </article>
+          </div>
+        </div>
+        <div class="hero-visual reveal">
+          <div class="visual-card glass-card">
+            <div class="visual-header">
+              <span class="dot red"></span>
+              <span class="dot amber"></span>
+              <span class="dot green"></span>
+              <span>Azure Portal — CampusLab-RG</span>
+            </div>
+            <div class="visual-body">
+              <div class="visual-block block-primary hero-video-block">
+                <video class="hero-video" autoplay muted loop playsinline preload="auto" poster="src/assets/images/poster-campus.svg">
+                  <source src="assets-download/Campus.mp4" type="video/mp4" />
+                </video>
+                <div class="hero-video-overlay">
+                  <span>Welcome to Smart Campus</span>
+                </div>
+              </div>
+              <div class="visual-block block-secondary">
+                <p>Virtual network segmentation</p>
+                <p>RBAC + Entra ID access</p>
+                <p>Secure backup automation</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section">
+        <div class="section-heading reveal">
+          <p class="eyebrow">About the project</p>
+          <h2>Enterprise-grade campus cloud infrastructure that feels like a Microsoft Azure product launch.</h2>
+        </div>
+        <div class="about-grid">
+          <article class="glass-card reveal">
+            <h3>Mission</h3>
+            <p>
+              The project delivered a resilient and secure Azure-based foundation for a smart university campus, enabling controlled access, trusted application hosting, and business continuity across faculty, administration, and student operations.
+            </p>
+          </article>
+          <article class="glass-card reveal">
+            <h3>Scope</h3>
+            <ul class="check-list">
+              <li>Virtual network and subnet segmentation</li>
+              <li>Azure virtual machines for workload hosting</li>
+              <li>Identity and RBAC with Microsoft Entra ID</li>
+              <li>Blob storage, policies, backup, and monitoring</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section id="tech" class="section">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Technologies used</p>
+          <h2>Azure-native services tuned for security, scalability, and operational clarity.</h2>
+        </div>
+        <div class="card-grid">
+          <article class="tech-card glass-card reveal">
+            <div class="icon-wrap">VNet</div>
+            <h3>Azure Virtual Network</h3>
+            <p>Segmented the environment into secure zones to isolate critical workloads and services.</p>
+          </article>
+          <article class="tech-card glass-card reveal">
+            <div class="icon-wrap">VM</div>
+            <h3>Azure Virtual Machines</h3>
+            <p>Provisioned compute resources for campus workloads and internal systems.</p>
+          </article>
+          <article class="tech-card glass-card reveal">
+            <div class="icon-wrap">Entra</div>
+            <h3>Microsoft Entra ID</h3>
+            <p>Implemented centralized identity and secure access governance for users and admins.</p>
+          </article>
+          <article class="tech-card glass-card reveal">
+            <div class="icon-wrap">Blob</div>
+            <h3>Azure Blob Storage</h3>
+            <p>Hosted static content and documents with secure, scalable object storage.</p>
+          </article>
+          <article class="tech-card glass-card reveal">
+            <div class="icon-wrap">Policy</div>
+            <h3>Azure Policy</h3>
+            <p>Enforced governance standards and configuration baselines across resources.</p>
+          </article>
+          <article class="tech-card glass-card reveal">
+            <div class="icon-wrap">Bastion</div>
+            <h3>Azure Bastion</h3>
+            <p>Enabled protected remote access without exposing management ports publicly.</p>
+          </article>
+          <article class="tech-card glass-card reveal">
+            <div class="icon-wrap">Vault</div>
+            <h3>Recovery Services Vault</h3>
+            <p>Established backup protection and restore readiness for critical workloads.</p>
+          </article>
+          <article class="tech-card glass-card reveal">
+            <div class="icon-wrap">NSG</div>
+            <h3>Network Security Group</h3>
+            <p>Controlled inbound and outbound traffic with layered security rules.</p>
+          </article>
+          <article class="tech-card glass-card reveal">
+            <div class="icon-wrap">RBAC</div>
+            <h3>Role Based Access Control</h3>
+            <p>Scoped permissions to least privilege principle across the environment.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="architecture" class="section">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Architecture</p>
+          <h2>Secure Azure topology built to scale from a single campus to a multi-site enterprise footprint.</h2>
+        </div>
+        <div class="architecture-panel glass-card reveal">
+            <div class="architecture-toolbar">
+            <div class="toolbar-actions">
+              <button class="icon-btn" data-action="zoom-in" aria-label="Zoom in">+</button>
+              <button class="icon-btn" data-action="zoom-out" aria-label="Zoom out">−</button>
+              <button class="icon-btn" data-action="fullscreen" aria-label="Open lightbox">⤢</button>
+            </div>
+            <p>Azure landing zone architecture</p>
+          </div>
+          <div class="architecture-frame">
+            <div class="architecture-badge">Created by Siddharth Shaurya</div>
+            <img id="architecture-image" src="src/assets/images/pdf-page-3.png" alt="Architecture diagram for the Smart University Campus Infrastructure" />
+            <video class="arch-video" autoplay muted loop playsinline preload="auto" data-video-src="assets-download/Campus.mp4" aria-label="Architecture walkthrough video">
+              <source src="" type="video/mp4" />
+            </video>
+          </div>
+          <div class="architecture-details">
+            <div>
+              <h3>Core components</h3>
+              <p>Azure Virtual Network forms the backbone with segmented subnets, a bastion host for secure administration, and NSGs to regulate communication pathways.</p>
+            </div>
+            <div>
+              <h3>Security posture</h3>
+              <p>Microsoft Entra ID and RBAC govern access, while Azure Policy and a Recovery Services Vault align the environment with governance and resilience requirements.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Infrastructure overview</p>
+          <h2>Every layer of the deployment was orchestrated for performance, security, and maintainability.</h2>
+        </div>
+        <div class="feature-grid">
+          <article class="feature-card glass-card reveal">
+            <h3>Enterprise Infrastructure</h3>
+            <p>Provisioned a modern Azure foundation that could support internal applications, secure administration, and high-availability services.</p>
+          </article>
+          <article class="feature-card glass-card reveal">
+            <h3>8 Subnets</h3>
+            <p>Separated app, data, management, and connectivity workloads for better isolation and easier troubleshooting.</p>
+          </article>
+          <article class="feature-card glass-card reveal">
+            <h3>Multiple VMs</h3>
+            <p>Hosted diverse workloads on dedicated virtual machines while following least-privilege and access-control best practices.</p>
+          </article>
+          <article class="feature-card glass-card reveal">
+            <h3>RBAC & Entra ID</h3>
+            <p>Restricted access by role and privilege to support safe operations across departments and stakeholder groups.</p>
+          </article>
+          <article class="feature-card glass-card reveal">
+            <h3>Blob Storage</h3>
+            <p>Provided secure storage for static web assets, backups, and internal documents.</p>
+          </article>
+          <article class="feature-card glass-card reveal">
+            <h3>Azure Policy & Recovery Vault</h3>
+            <p>Ensured environment compliance and business continuity through policy enforcement and backup protection.</p>
+          </article>
+          <article class="feature-card glass-card reveal">
+            <h3>Static Website</h3>
+            <p>Published a lightweight public presence for the campus infrastructure using Azure static web hosting.</p>
+          </article>
+          <article class="feature-card glass-card reveal">
+            <h3>Secure Networking</h3>
+            <p>Used NSGs, bastion access, and network segmentation to reduce attack surface and strengthen resilience.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="demo" class="section">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Live demonstration</p>
+          <h2>Premium browser-style walkthroughs for each stage of the deployment lifecycle.</h2>
+        </div>
+        <div class="video-grid">
+          <article class="video-card glass-card reveal">
+            <div class="browser-frame">
+              <div class="titlebar">
+                <span class="dot red"></span>
+                <span class="dot amber"></span>
+                <span class="dot green"></span>
+                <span>Azure Portal — CampusLab-RG</span>
+              </div>
+              <video class="demo-video" controls autoplay muted loop playsinline preload="auto" poster="src/assets/images/poster-campus.svg" data-video-src="assets-download/Campus.mp4">
+                <source src="" type="video/mp4" />
+              </video>
+              <div class="playing-indicator" aria-hidden="true">Playing</div>
+              <div class="video-controls" aria-hidden="false">
+                <button class="vc-play" aria-label="Play/Pause">▶</button>
+                <button class="vc-mute" aria-label="Mute/Unmute">🔈</button>
+                <select class="vc-speed" aria-label="Playback speed">
+                  <option value="0.5">0.5x</option>
+                  <option value="0.75">0.75x</option>
+                  <option value="1" selected>1x</option>
+                  <option value="1.25">1.25x</option>
+                  <option value="1.5">1.5x</option>
+                  <option value="2">2x</option>
+                </select>
+                <button class="vc-pip" aria-label="Picture in Picture">⧉</button>
+              </div>
+            </div>
+            <div class="video-info">
+              <h3>Campus deployment walkthrough</h3>
+              <p>Shows the Azure portal experience, resource group organization, and infrastructure provisioning flow.</p>
+            </div>
+          </article>
+          <article class="video-card glass-card reveal">
+            <div class="browser-frame">
+              <div class="titlebar">
+                <span class="dot red"></span>
+                <span class="dot amber"></span>
+                <span class="dot green"></span>
+                <span>Azure Portal — Security Review</span>
+              </div>
+              <video class="demo-video" controls autoplay muted loop playsinline preload="auto" poster="src/assets/images/poster-security.svg" data-video-src="assets-download/Screenrecording%202.mp4">
+                <source src="" type="video/mp4" />
+              </video>
+              <div class="playing-indicator" aria-hidden="true">Playing</div>
+              <div class="video-controls" aria-hidden="false">
+                <button class="vc-play" aria-label="Play/Pause">▶</button>
+                <button class="vc-mute" aria-label="Mute/Unmute">🔈</button>
+                <select class="vc-speed" aria-label="Playback speed">
+                  <option value="0.5">0.5x</option>
+                  <option value="0.75">0.75x</option>
+                  <option value="1" selected>1x</option>
+                  <option value="1.25">1.25x</option>
+                  <option value="1.5">1.5x</option>
+                  <option value="2">2x</option>
+                </select>
+                <button class="vc-pip" aria-label="Picture in Picture">⧉</button>
+              </div>
+            </div>
+            <div class="video-info">
+              <h3>Security and access review</h3>
+              <p>Highlights RBAC, Entra ID, NSG rules, and security-centric access control decisions.</p>
+            </div>
+          </article>
+          <article class="video-card glass-card reveal">
+            <div class="browser-frame">
+              <div class="titlebar">
+                <span class="dot red"></span>
+                <span class="dot amber"></span>
+                <span class="dot green"></span>
+                <span>Azure Portal — Hosting Preview</span>
+              </div>
+              <video class="demo-video" controls autoplay muted loop playsinline preload="auto" poster="src/assets/images/poster-hosting.svg" data-video-src="assets-download/web%20hosting%20insidev%20m.mp4">
+                <source src="" type="video/mp4" />
+              </video>
+              <div class="playing-indicator" aria-hidden="true">Playing</div>
+              <div class="video-controls" aria-hidden="false">
+                <button class="vc-play" aria-label="Play/Pause">▶</button>
+                <button class="vc-mute" aria-label="Mute/Unmute">🔈</button>
+                <select class="vc-speed" aria-label="Playback speed">
+                  <option value="0.5">0.5x</option>
+                  <option value="0.75">0.75x</option>
+                  <option value="1" selected>1x</option>
+                  <option value="1.25">1.25x</option>
+                  <option value="1.5">1.5x</option>
+                  <option value="2">2x</option>
+                </select>
+                <button class="vc-pip" aria-label="Picture in Picture">⧉</button>
+              </div>
+            </div>
+            <div class="video-info">
+              <h3>Static web hosting demo</h3>
+              <p>Demonstrates the published web presence, storage configuration, and website delivery flow.</p>
+            </div>
+          </article>
+        </div>
+        <div style="margin-top: 2rem; text-align: center;">
+          <a class="btn btn-primary" href="https://drive.google.com/drive/folders/1MTuv4yqWK-jjr6b4AfQEYrAtuHugfrfT" target="_blank" rel="noreferrer">📹 View All Screen Recordings on Google Drive</a>
+        </div>
+      </section>
+
+      <section id="gallery" class="section">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Screenshot gallery</p>
+          <h2>A premium gallery that turns the deployment story into a visual case study.</h2>
+        </div>
+        <div class="masonry-grid">
+          <button class="gallery-card glass-card reveal" data-image="src/assets/images/pdf-page-2.png" data-title="Project Report — Page 2" aria-label="Open project report page 2">
+            <img src="src/assets/images/pdf-page-2.png" alt="Project report page 2" loading="lazy" />
+          </button>
+          <a class="gallery-card glass-card reveal" href="https://drive.google.com/drive/folders/1MTuv4yqWK-jjr6b4AfQEYrAtuHugfrfT?usp=sharing" target="_blank" rel="noreferrer" data-image="src/assets/images/pdf-page-4.png" data-title="Architecture Diagram" aria-label="Open architecture diagram on Drive">
+            <img src="src/assets/images/pdf-page-4.png" alt="Architecture diagram" loading="lazy" />
+          </a>
+          <button class="gallery-card glass-card reveal" data-image="src/assets/images/pdf-page-3.png" data-title="Project Architecture — Page 3" aria-label="Open project architecture page 3">
+            <img src="src/assets/images/pdf-page-3.png" alt="Project architecture page 3" loading="lazy" />
+          </button>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Implementation timeline</p>
+          <h2>From resource group creation to deployment completion, each milestone was deliberate and measurable.</h2>
+        </div>
+        <div class="timeline reveal">
+          <div class="timeline-item"><span>Resource Group</span></div>
+          <div class="timeline-item"><span>Virtual Network</span></div>
+          <div class="timeline-item"><span>Subnets</span></div>
+          <div class="timeline-item"><span>NSGs</span></div>
+          <div class="timeline-item"><span>Virtual Machines</span></div>
+          <div class="timeline-item"><span>RBAC</span></div>
+          <div class="timeline-item"><span>Storage</span></div>
+          <div class="timeline-item"><span>Policies</span></div>
+          <div class="timeline-item"><span>Backup</span></div>
+          <div class="timeline-item"><span>Testing</span></div>
+          <div class="timeline-item"><span>Deployment Complete</span></div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Challenges and outcomes</p>
+          <h2>Complexity was handled with layered design, automation, and strong governance.</h2>
+        </div>
+        <div class="challenge-grid">
+          <article class="glass-card reveal">
+            <h3>Challenge</h3>
+            <p>Designing a secure yet scalable Azure foundation for a multi-user campus environment with multiple workloads and governance constraints.</p>
+            <h3>Solution</h3>
+            <p>Segmented subnets, enforced NSGs, centralized identity with Entra ID, and used Azure Policy to standardize deployments.</p>
+            <h3>Outcome</h3>
+            <p>Delivered a resilient infrastructure that is easier to manage, audit, and extend.</p>
+          </article>
+          <article class="glass-card reveal">
+            <h3>Challenge</h3>
+            <p>Creating reliable access workflows without opening the environment to unnecessary exposure.</p>
+            <h3>Solution</h3>
+            <p>Used Azure Bastion, RBAC, and private-path design patterns for administration and sensitive operations.</p>
+            <h3>Outcome</h3>
+            <p>Raised the security bar while keeping the deployment approachable for operational teams.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Learning outcomes</p>
+          <h2>The project sharpened both platform depth and real-world cloud engineering judgment.</h2>
+        </div>
+        <div class="pill-wrap reveal">
+          <span class="learning-pill">Azure Networking</span>
+          <span class="learning-pill">Cloud Security</span>
+          <span class="learning-pill">Infrastructure as a Service</span>
+          <span class="learning-pill">Identity Management</span>
+          <span class="learning-pill">Backup & Recovery</span>
+          <span class="learning-pill">Storage Design</span>
+          <span class="learning-pill">Monitoring</span>
+          <span class="learning-pill">Governance</span>
+        </div>
+      </section>
+
+      <section id="docs" class="section">
+        <div class="doc-panel glass-card reveal">
+          <div>
+            <p class="eyebrow">Documentation</p>
+            <h2>Professional case-study documentation ready for recruiters and hiring panels.</h2>
+            <p>The full project report is available for review and includes deployment context, architecture rationale, and operational considerations.</p>
+          </div>
+          <div class="doc-actions">
+            <a class="btn btn-primary" href="assets-download/Azure%20project%20Campus%20Managment%20Siddharth.pdf" target="_blank" rel="noreferrer">View Documentation</a>
+            <a class="btn btn-secondary" href="assets-download/Azure%20project%20Campus%20Managment%20Siddharth.pdf" download>Download PDF</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section contact-section">
+        <div class="glass-card reveal">
+          <p class="eyebrow">Contact</p>
+          <h2>Open to cloud, platform, and infrastructure engineering opportunities.</h2>
+          <p>Let’s build secure, modern cloud experiences that stand out in both product and engineering contexts.</p>
+          <a class="btn btn-primary" href="mailto:siddharthshaurya408@gmail.com">Get in touch</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>Smart University Campus Infrastructure • Azure Cloud Case Study</p>
+      <p>Designed for recruiters, hiring managers, and cloud-focused portfolios.</p>
+    </footer>
+
+    <div class="lightbox" id="lightbox" aria-hidden="true">
+      <button class="lightbox-close" aria-label="Close preview">×</button>
+      <div id="lightbox-media" class="lightbox-media" />
+    </div>
+
+    <script src="src/js/app.js"></script>
+  </body>
+</html>

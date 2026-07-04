@@ -1,0 +1,9 @@
+<svg width="900" height="1200" viewBox="0 0 900 1200" xmlns="http://www.w3.org/2000/svg">
+  <rect width="900" height="1200" rx="30" fill="#07111F"/>
+  <rect x="100" y="120" width="700" height="960" rx="24" fill="#0D233E" stroke="#2E7BBF" stroke-width="2"/>
+  <circle cx="450" cy="380" r="130" fill="#0F3A58" stroke="#38BDF8" stroke-width="10"/>
+  <path d="M450 300V460" stroke="#38BDF8" stroke-width="12" stroke-linecap="round"/>
+  <path d="M390 420L450 480L510 420" stroke="#38BDF8" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="180" y="760" fill="#F8FAFC" font-family="Inter, Segoe UI, sans-serif" font-size="34" font-weight="600">Backup & Resilience</text>
+  <text x="180" y="804" fill="#8ED4FF" font-family="Inter, Segoe UI, sans-serif" font-size="22">Recovery services vault</text>
+</svg>
